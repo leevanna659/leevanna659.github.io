@@ -1,38 +1,153 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App{
+    text-align: center;
+       
+  
+}
+
+/* NavBar */
+
+/* Title*/
+.name {
+  background-color: #248C54;
+  padding: 1rem 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.name h2 {
   color: white;
+  font-weight: 600;
+  font-size: 1.75rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* navbar  */
+.navbar {
+  background-color: #1f7446;
+  padding: 0.75rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Nav list options */
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+
+.navbar a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 11rem;
+  transition: background-color 0.25s ease;
+}
+
+
+.navbar a:hover {
+  background-color: #3bbf78;
+}
+
+
+/* AboutMe */
+#about{
+    background-color: #95DCE4; 
+}
+
+
+/* Contact */
+
+.footer{
+  background-color: #1f7446;
+  display:block; 
+}
+
+.card{
+  border: 1px solid rgb(4, 5, 4);
+   border-radius: 10px; 
+   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1) ; 
+   padding: 20px; 
+   margin: 10px; 
+   text-align: center; 
+   width: 1000px; 
+   display: inline-block; 
+
+}
+
+
+.card .card-title{
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  color: #89618E; 
+
+}
+
+.card .card-text{
+font-family:Arial; 
+color:black; 
+}
+
+.logos{
+  width:45px; 
+  height:auto; 
+  margin: 20px 35px;  
+}
+
+.footer-text{
+  color:white; 
+}
+
+a{
+  color:black; 
+}
+
+
+h2{
+  color:white; 
+  margin-bottom: 10px;
+}
+
+.resumeButton{
+  font-size:20px; 
+  background-color:#89618E; 
+ color:white; 
+ border-radius:25px; 
+ padding: 1rem; 
+margin:1rem; 
+}
+
+.resumeButton:hover{
+  cursor: pointer;
+  background-color: #ca9ad1;
+  color:black; 
+}
+
+#projects{
+  background-color: #95DCE4;
+}
+
+.project-title{
+  color:#89618E; 
+}
+
+.project-content{
+  display:flex; 
+  align-items:center; 
+   
+}
+
+.project-image{
+  width:500x; 
+  height:auto; 
+  margin-right:5rem; 
+}
+
+@media (min-width:675px){
+    
 }
