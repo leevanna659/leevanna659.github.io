@@ -42,7 +42,7 @@
   text-decoration: none;
   color: white;
   font-size: 1rem;
-  padding: 1rem 11rem;
+  padding: 1rem 5.5rem;
   transition: background-color 0.25s ease;
 }
 
@@ -176,9 +176,7 @@ margin:1rem;
 }
 
 .navbar li{
- 
   width:100%; 
-  
 }
 
 .navbar a {
