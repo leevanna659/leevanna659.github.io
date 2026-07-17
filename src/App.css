@@ -7,13 +7,10 @@
 
 .App{
     text-align: center;
-       
-  
+   
 }
 
-/* NavBar */
 
-/* Title*/
 .name {
   background-color: #248C54;
   padding: 1rem 0;
@@ -26,13 +23,13 @@
   font-size: 1.75rem;
 }
 
-/* navbar  */
+
 .navbar {
   background-color: #1f7446;
   padding: 0.75rem 0;
 }
 
-/* Nav list options */
+
 .navbar ul {
   display: flex;
   justify-content: space-around;
@@ -55,13 +52,13 @@
 }
 
 
-/* AboutMe */
+
 #about{
     background-color: #95DCE4; 
 }
 
 
-/* Contact */
+
 
 .footer{
   background-color: #1f7446;
@@ -73,9 +70,10 @@
    border-radius: 10px; 
    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1) ; 
    padding: 20px; 
-   margin: 10px; 
+   margin: 10px auto; 
    text-align: center; 
-   width: 1000px; 
+   width:100%;
+   max-width: 1000px; 
    display: inline-block; 
 
 }
@@ -85,7 +83,7 @@
   font-family: Arial, sans-serif; 
   margin: 0; 
   color: #89618E; 
-
+  padding-bottom: 1rem;
 }
 
 .card .card-text{
@@ -143,11 +141,52 @@ margin:1rem;
 }
 
 .project-image{
-  width:500x; 
+  width:490px; 
   height:auto; 
   margin-right:5rem; 
+  margin-top: 1rem;
 }
 
-@media (min-width:675px){
+@media (max-width:768px){
+  h3{
+    margin-bottom:10px; 
+  }
+
+  .card{
+    width:90%; 
+    margin:1rem auto; 
+  }
+
+  .project-content{
+    flex-direction:column; 
+    text-align:center; 
+  }
+
+  .project-image{
+    width:100%; 
+    max-width:300px; 
+    margin:0 auto; 
+  }
     
+
+  .navbar ul {
+  flex-direction: column;
+  align-items:center; 
+  
+}
+
+.navbar li{
+ 
+  width:100%; 
+  
+}
+
+.navbar a {
+  display:block; 
+padding: 1rem;
+width:100%; 
+text-align:center; 
+
+
+}
 }
